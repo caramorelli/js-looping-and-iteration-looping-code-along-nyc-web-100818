@@ -14,7 +14,7 @@ function tailsNeverFails() {
     numtailsNeverFails = Math.random(0, 1);
     count.push(1);
   }
-  return `You got ${count} tails in a row!`;
+  return `You got ${count.length} tails in a row!`;
 }
 
 // function tailsNeverFails() {
