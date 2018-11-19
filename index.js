@@ -7,13 +7,22 @@ function printBadges(employees) {
   return employees;
 }
 
-
 function tailsNeverFails() {
-  var count = 0
+  var count = []
   var numtailsNeverFails = 1;
   while ( numtailsNeverFails >= 0.5 ) {
     numtailsNeverFails = Math.random(0, 1);
-    count += 1;
+    count.push(1);
   }
-  return `You got ${count - 1} tails in a row!`;
+  return `You got ${count} tails in a row!`;
 }
+
+// function tailsNeverFails() {
+//   var count = 0
+//   var numtailsNeverFails = 1;
+//   while ( numtailsNeverFails >= 0.5 ) {
+//     numtailsNeverFails = Math.random(0, 1);
+//     count += 1;
+//   }
+//   return `You got ${count - 1} tails in a row!`;
+// }
