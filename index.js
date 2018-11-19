@@ -12,10 +12,10 @@ function tailsNeverFails() {
   var count = 0
   while ( var numtailsNeverFails >= 0.5 ) {
     numtailsNeverFails = Math.random(0, 1)
-    count++
+    count++;
   }
   
-  console.log(`You got ${numtailsNeverFails} tails in a row!`);
+  console.log(`You got ${count} tails in a row!`);
 }
 // We're going to create a little game for our Flatbook users to play when they're
 // bored. Create a function named `tailsNeverFails()` that takes no arguments. In
