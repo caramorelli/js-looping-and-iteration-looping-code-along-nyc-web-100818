@@ -10,7 +10,7 @@ function printBadges(employees) {
 
 function tailsNeverFails() {
   while ( var numtailsNeverFails > Math.random ) {
-    numtailsNeverFails = Math.random
+    numtailsNeverFails = Math.random()
   }
   
   console.log(`You got ${numtailsNeverFails} tails in a row!`);
