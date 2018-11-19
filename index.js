@@ -9,6 +9,7 @@ function printBadges(employees) {
 
 
 function tailsNeverFails() {
+  var count = 
   while ( var numtailsNeverFails > Math.random ) {
     numtailsNeverFails = Math.random(0, 1)
   }
