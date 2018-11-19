@@ -9,7 +9,10 @@ function printBadges(employees) {
 
 
 function tailsNeverFails() {
-  var numtailsNeverFails = Math.random
+  while ( var numtailsNeverFails > Math.random ) {
+    numtailsNeverFails = Math.random
+  }
+  
   console.log(`You got ${numtailsNeverFails} tails in a row!`);
 }
 // We're going to create a little game for our Flatbook users to play when they're
