@@ -15,5 +15,5 @@ function tailsNeverFails() {
     numtailsNeverFails = Math.random(0, 1);
     count += 1;
   }
-  return `You got ${count} tails in a row!`;
+  return `You got ${count - 1} tails in a row!`;
 }
